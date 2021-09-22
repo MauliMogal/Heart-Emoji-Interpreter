@@ -1,0 +1,61 @@
+body {
+  background-image: black;
+  font-family: "Indie Flower", cursive;
+  margin: 1.2rem;
+}
+
+.App {
+  padding-top: 1rem;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  letter-spacing: 0.1rem;
+}
+
+.App h1 {
+  background-color: white;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 1.5rem;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 1.5rem;
+  background-color: white;
+}
+
+.output {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  letter-spacing: 0.1rem;
+}
+
+.non-bullets {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+  justify-content: center;
+  background-color: white;
+  border-radius: 1.5rem;
+  border: 2px solid black;
+}
+
+.list-item {
+  padding: 1.5rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
